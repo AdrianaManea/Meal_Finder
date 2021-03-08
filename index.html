@@ -9,14 +9,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
   <title>Meal Finder</title>
-
 </head>
 
 <body>
   <div class="container">
     <h1>Meal Finder</h1>
     <div class="flex">
-      <form id="submit">
+      <form class="flex" id="submit">
         <input type="text" id="search" placeholder="Search for meals or keywords">
         <button id="search-btn" class="search-btn" type="submit">
           <i class="fas fa-search"></i>
@@ -27,14 +26,6 @@
         <i class="fas fa-random"></i>
       </button>
 
-    </div>
-
-    <div class="alert hide" id="alert">
-      <span class="fas fa-exclamation-circle"></span>
-      <span class="message">Please enter a search term!</span>
-      <span class="close-btn" id="close-btn">
-        <span class="fas fa-times"></span>
-      </span>
     </div>
 
     <div id="result-heading"></div>
